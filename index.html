@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./css/css.css">
+</head>
+<body>
+    <!--! nav -->
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <img src="./img/Harry Potter.png" alt="">
+            </div>
+            <p class="nev__text">
+                Harry Potter
+            </p>
+            
+                <form action="" class="search__bar">
+                    <input  type="search" name="search" pattern=".*\S.*" required>
+                    <button  class="search-btn" type="submit">
+                    <span>Search</span>
+                    </button>
+                </form>
+                 <!-- hamburger -->
+                 <label>
+                    <input type="checkbox">
+                    <span class="menu"> <span class="hamburger"></span> </span>
+                    <ul>
+                      <li class="tabs__nav-btn active"  data-target="Gryffindor"> <a href="#">Gryffindor</a> </li>
+                      <li  class="tabs__nav-btn"  data-target="Ravenclaw"> <a href="#">Ravenclaw</a> </li>
+                      <li class="tabs__nav-btn"  data-target="Hufflepuff"> <a href="#">Hufflepuff</a> </li>
+                      <li class="tabs__nav-btn"  data-target="Slytherin"> <a href="#">Slytherin</a> </li>
+                    </ul>
+                    </label>
+        </div>
+    </nav>
+
+
+    <!--! logo -->
+    <main>
+        <div class="main__header">
+            <header class="main__logo hidden">
+                <img class="tabs__nav-btn active"  data-target="Gryffindor" src="./img/grifendor.svg" alt="">
+                <img class="tabs__nav-btn"  data-target="Ravenclaw" src="./img/rupfull.svg" alt="">
+                <img class="tabs__nav-btn"  data-target="Hufflepuff" src="./img/hupfull.svg" alt="">
+                <img class="tabs__nav-btn"  data-target="Slytherin" src="./img/slither.svg" alt="">
+            </header>
+        </div>
+    </main>
+    <!--! herois start -->
+    <hr class="hr-dashed">
+        <div class="herois__header">
+            <div class="herois__container">
+               
+                    <img class="vik" src="./img/Harry Potter  Vik.jpg" alt="">
+                
+                <div class="herois__text">
+                    На одиннадцатый день рождения Гарри узнаёт, что является волшебником, и ему уготовано место в школе волшебства «Хогвартс», в которой он будет практиковать магию под руководством директора Альбуса Дамблдора и других школьных профессоров.
+                    Также оказывается, что он уже является знаменитостью во всём магическом сообществе романа, и что его судьба связана с судьбой Волан-де-Морта, опасного тёмного мага, убившего среди прочих и его родителей — Лили и Джеймса Поттеров.
+                    Персонаж приобрёл большую популярность во всём мире[3].
+                </div>
+            </div>
+        </div>
+        <hr class="hr-dashed">
+    <!--! herois end -->
+
+    <!--! cards -->
+    <!-- <div class="card__body">
+        <div class="card__header">
+            <div class="cards">
+                <img src="./img/harry.webp" alt="">
+            </div>
+            <div class="cards">
+                <img src="./img/harry.webp" alt="">
+            </div>
+            <div class="cards">
+                <img src="./img/harry.webp" alt="">
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="card__header">
+        <div class="container">
+              <div class="card">
+                <div class="wrapper">
+                <img src="./img/harry.webp" class="cover-image" />
+                </div>
+                <div class="title">
+                    Harry Potter 
+                </div>
+            </div> -->
+        <!-- </div>
+    </div> -->
+
+    <div class="card__main">
+        <div class="container">
+            <article class="cards">
+        
+            </article> 
+        </div>
+        </div>
+        </section>
+    </div>
+
+    <div class="overlay">
+        
+    </div>
+    <div class="modal"></div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./js/js.js"></script>
+</body>
+</html>
